@@ -1,13 +1,13 @@
-//% block="thing"
-namespace thing{
+
+namespace modules{
 
   export class FwdEduDial {
-    private _dialClient: thing.RotaryEncoderClient
+    private _dialClient: modules.RotaryEncoderClient
     private _cwAction: (delta: number) => void
     private _ccwAction: (delta: number) => void
 
     constructor(role: string) {
-      this._dialClient = new thing.RotaryEncoderClient(role)
+      this._dialClient = new modules.RotaryEncoderClient(role)
     }
     
     //% group="Dial"
