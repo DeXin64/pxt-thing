@@ -1,9 +1,6 @@
 //% block="thing"
 namespace thing{
-  //% block="test"
-  export function test():number{
-    return 1;
-  }
+
   export class FwdEduDial {
     private _dialClient: thing.RotaryEncoderClient
     private _cwAction: (delta: number) => void
