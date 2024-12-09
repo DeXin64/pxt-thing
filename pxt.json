@@ -1,1 +1,20 @@
-
+{
+    "name": "pxt-thing",
+    "version": "0.0.1",
+    "description": "thing",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "main.ts"
+    ],
+    "public": true,
+    "targetVersions": {
+        "target": "7.0.51",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
