@@ -5,12 +5,12 @@ namespace thing{
     return 1;
   }
   export class FwdEduDial {
-    private _dialClient: jacdac.RotaryEncoderClient
+    private _dialClient: thing.RotaryEncoderClient
     private _cwAction: (delta: number) => void
     private _ccwAction: (delta: number) => void
 
     constructor(role: string) {
-      this._dialClient = new jacdac.RotaryEncoderClient(role)
+      this._dialClient = new thing.RotaryEncoderClient(role)
     }
     
     //% group="Dial"
