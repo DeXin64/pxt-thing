@@ -5,6 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "core": "*",
+    "main.ts",
     "jacdac": "github:microsoft/pxt-jacdac",
     "jacdac-rotary-encoder": "github:microsoft/pxt-jacdac/rotary-encoder"
   },
