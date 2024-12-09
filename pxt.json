@@ -1,22 +1,19 @@
 {
-    "name": "pxt-thing",
-    "version": "0.0.1",
-    "description": "thing",
-    "dependencies": {
-        "core": "*",
-        "jacdac": "github:microsoft/pxt-jacdac",
-        "jacdac-rotary-encoder": "github:microsoft/pxt-jacdac/rotary-encoder"
-    },
-    "files": [
-        "main.ts"
-    ],
-    "public": true,
-    "targetVersions": {
-        "target": "7.0.51",
-        "targetId": "microbit"
-    },
-    "supportedTargets": [
-        "microbit"
-    ],
-    "preferredEditor": "tsprj"
-}}
+  "name": "FWDEDU-dial",
+  "version": "0.0.0",
+  "description": "Climate Action Kit Gen. 2 Dial",
+  "license": "MIT",
+  "dependencies": {
+    "core": "*",
+    "jacdac": "github:microsoft/pxt-jacdac",
+    "jacdac-rotary-encoder": "github:microsoft/pxt-jacdac/rotary-encoder"
+  },
+  "files": [
+    "README.md",
+    "client.ts"
+  ],
+  "public": true,
+  "supportedTargets": [
+    "microbit"
+  ]
+}
