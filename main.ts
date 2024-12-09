@@ -1,7 +1,7 @@
 //% block="thing"
-export namespace {
+export namespace thing{
   //% block="test"
-  export function():number{
+  export function test():number{
     return 1;
   }
 }
